@@ -1,0 +1,51 @@
+﻿@font-face {
+    font-family: Anonymous; /* Гарнитура шрифта */
+    src: url(../fonts/AnonymousPro-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+.header {
+    background-color: #2c2c2c;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0;
+    color: white;
+    padding:3px;
+}
+
+body {
+    margin: 0;
+    font-family: Anonymous;
+}
+
+.header_logo {
+    font-size: 20px;
+    font-family: Anonymous;
+    display: flex;
+    align-items: center;
+    padding:inherit;
+    margin:0px 25px 0px 25px;
+}
+.header_logo_name {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.init_block {
+    color:white;
+}
+.init_block_back {
+    width:100%;
+    filter:brightness(55%);
+    opacity:0.9;
+}
+.init_block_text {
+    position:absolute;
+    left: 50px;
+    top: 20%;
+
+}
+
+
+
